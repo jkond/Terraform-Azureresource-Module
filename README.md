@@ -17,6 +17,8 @@ Use the above step in main.tf ,The above step creates resource group
 
 `NOTE: You need to have the other files like Provider.tf,variables.tf and terraform.tfvars (terraform.tfvars for env variables in this example it is dev.tfvars)`
 
+## **Steps to Perform**
+
 `terraform init`
 
 `terraform plan --var-file .\dev.tfvars`
