@@ -2,7 +2,7 @@
 
 This is a terraform Module for Azure Resources ,you can use this Module to create Azure Resources 
 
-Usage:
+ ## **Usage**:
 Using this below module we can create `resource group`,`storageaccount`,`virtual Networks`,`subnets`,`Linux web app`,`private end points`,`DNS records`.
 
 module "azure_resources" {
