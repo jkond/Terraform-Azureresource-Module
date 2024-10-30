@@ -19,7 +19,7 @@ Use the above step in main.tf ,The above step creates resource group
 
 ## **Steps to Perform**
 
-`terraform init`
+`terraform init` `(Needed when we add new modules and anytime if a new provider is added )`
 
 `terraform plan --var-file .\dev.tfvars`
 
