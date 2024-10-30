@@ -17,5 +17,7 @@ Use the above step in main.tf ,The above step creates resoruce group
 `NOTE: You need to have the other files like Provider.tf,variables.tf and terraform.tfvars (for env variables in this example it is dev.tfvars)`
 
 `terraform init`
+
 `terraform plan --var-file .\dev.tfvars`
+
 `terraform apply`
