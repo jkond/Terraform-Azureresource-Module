@@ -15,7 +15,7 @@ module "azure_resources" {
 
 Use the above step in main.tf ,The above step creates resource group 
 
-`NOTE: You need to have the other files like Provider.tf,variables.tf and terraform.tfvars (for env variables in this example it is dev.tfvars)`
+`NOTE: You need to have the other files like Provider.tf,variables.tf and terraform.tfvars (terraform.tfvars for env variables in this example it is dev.tfvars)`
 
 `terraform init`
 
