@@ -7,9 +7,9 @@ Using this below module we can create `resource group`,`storageaccount`,`virtual
 
 module "azure_resources" {
 
-    source = "github.com/jkond/Terraform-Azureresource-Module//azure-resources" \
-    location = var.location \
-    az_resourcegroup_name  = var.az_resourcegroup_name \
+    source = "github.com/jkond/Terraform-Azureresource-Module//azure-resources" 
+    location = var.location
+    az_resourcegroup_name  = var.az_resourcegroup_name
     
 }
 
